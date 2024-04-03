@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --sp-brown: #814E00;
+    --sp-blue: #002D3A;
+    --sp-light-brown: #D0AD76;
+    --sp-grey: #928C85;
+    --sp-dark-brown: #634219;
+}
+
+body {
+    background-image: url('../img/grunge-style-background-with-stains-scratches.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav li:hover {
+    color: var(--sp-light-brown);
+}
+
+.current_page_item {
+    background-color: var(--sp-blue);
+    border-radius: 20px;
+    color: var(--sp-light-brown);
+    padding: 5px;
+}
+
+.header-border {
+    background-image: url('http://localhost/sml-web-development/wp-content/uploads/2024/04/frame.svg');
+}

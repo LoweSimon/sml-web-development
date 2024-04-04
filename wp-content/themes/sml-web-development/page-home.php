@@ -12,7 +12,7 @@
     <?php include get_template_directory() . '/template-parts/hero.php'; ?>
 </section>
 
-<section class="about-me container top-72 relative justify-center flex">
+<section class="about-me container top-[58rem] relative justify-center flex">
     <?php include get_template_directory() . '/template-parts/about-me.php'; ?>
 </section>
 

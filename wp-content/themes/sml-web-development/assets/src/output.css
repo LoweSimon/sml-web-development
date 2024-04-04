@@ -702,6 +702,18 @@ video {
   right: 1.75rem;
 }
 
+.top-96 {
+  top: 24rem;
+}
+
+.top-\[58rem\] {
+  top: 58rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }

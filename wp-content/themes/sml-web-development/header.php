@@ -19,9 +19,9 @@
 <body class="font-display overflow-x-hidden">
 
     <div class="nav-gears">
-        <img src="http://localhost/sml-web-development/wp-content/uploads/2024/03/nav-gear.svg" alt="" class="nav-gear fixed left-[-124px] top-[-124px] xl:w-64 xl:h-64 lg:w-56 lg:h-56 animate-spin-slow opacity-70">
-        <img src="http://localhost/sml-web-development/wp-content/uploads/2024/03/nav-gear.svg" alt="" class="nav-gear fixed xl:left-[78px] xl:top-0 xl:w-64 xl:h-64 lg:left-[34px] lg:top-[10px] lg:w-56 lg:h-56 sm:top-[10px] sm:left-[-10px] animate-spin-slow direction-reverse opacity-70">
-        <img src="http://localhost/sml-web-development/wp-content/uploads/2024/03/nav-gear-2.svg" alt="" class="nav-gear fixed left-[-121px] xl:top-[122px] xl:w-64 xl:h-64 lg:top-[143px] lg:w-56 lg:h-56 sm:top-[124px] animate-spin-slow opacity-70">
+        <img src="/wp-content/uploads/2024/03/nav-gear.svg" alt="" class="nav-gear fixed left-[-124px] top-[-124px] xl:w-64 xl:h-64 lg:w-56 lg:h-56 animate-spin-slow opacity-70">
+        <img src="/wp-content/uploads/2024/03/nav-gear.svg" alt="" class="nav-gear fixed xl:left-[78px] xl:top-0 xl:w-64 xl:h-64 lg:left-[34px] lg:top-[10px] lg:w-56 lg:h-56 sm:top-[10px] sm:left-[-10px] animate-spin-slow direction-reverse opacity-70">
+        <img src="/wp-content/uploads/2024/03/nav-gear-2.svg" alt="" class="nav-gear fixed left-[-121px] xl:top-[122px] xl:w-64 xl:h-64 lg:top-[143px] lg:w-56 lg:h-56 sm:top-[124px] animate-spin-slow opacity-70">
     </div>
 
     <header class="fixed top-0 w-full shadow-md">

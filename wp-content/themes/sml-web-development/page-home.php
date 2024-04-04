@@ -8,7 +8,7 @@
     get_header();
 ?>
 
-<section class="hero container top-72 relative justify-center flex">
+<section class="hero container top-60 relative justify-center flex">
     <?php include get_template_directory() . '/template-parts/hero.php'; ?>
 </section>
 

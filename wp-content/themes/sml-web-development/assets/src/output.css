@@ -550,6 +550,12 @@ video {
   margin-left: auto;
 }
 
+@media (min-width: 469px) {
+  .container {
+    max-width: 469px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -612,6 +618,10 @@ video {
   top: 0px;
 }
 
+.top-60 {
+  top: 15rem;
+}
+
 .top-72 {
   top: 18rem;
 }
@@ -620,12 +630,84 @@ video {
   top: -124px;
 }
 
+.top-5 {
+  top: 1.25rem;
+}
+
+.right-\[-100px\] {
+  right: -100px;
+}
+
+.right-\[-150px\] {
+  right: -150px;
+}
+
+.right-\[-125px\] {
+  right: -125px;
+}
+
+.top-\[350px\] {
+  top: 350px;
+}
+
+.top-\[-100px\] {
+  top: -100px;
+}
+
+.top-\[-240px\] {
+  top: -240px;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.left-\[13px\] {
+  left: 13px;
+}
+
+.top-\[-9px\] {
+  top: -9px;
+}
+
+.top-\[120px\] {
+  top: 120px;
+}
+
+.top-\[89px\] {
+  top: 89px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-\[140px\] {
+  right: 140px;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-7 {
+  right: 1.75rem;
+}
+
 .flex {
   display: flex;
 }
 
-.w-\[750px\] {
-  width: 750px;
+.hidden {
+  display: none;
 }
 
 .w-full {
@@ -644,6 +726,10 @@ video {
 
 .animate-spin-slow {
   animation: spin 8s linear infinite;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -691,9 +777,14 @@ video {
   line-height: 2rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -706,6 +797,11 @@ video {
 
 .text-sp-dark-brown {
   color: var(--sp-dark-brown);
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-70 {
@@ -766,9 +862,27 @@ nav li:hover {
   background-image: url('http://localhost/sml-web-development/wp-content/uploads/2024/04/frame.svg');
 }
 
+@media (min-width: 469px) {
+  .xs\:absolute {
+    position: absolute;
+  }
+
+  .xs\:top-\[-240px\] {
+    top: -240px;
+  }
+
+  .xs\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:left-\[-10px\] {
     left: -10px;
+  }
+
+  .sm\:top-20 {
+    top: 5rem;
   }
 
   .sm\:top-\[10px\] {
@@ -778,6 +892,67 @@ nav li:hover {
   .sm\:top-\[124px\] {
     top: 124px;
   }
+
+  .sm\:right-\[-172px\] {
+    right: -172px;
+  }
+
+  .sm\:right-\[-165px\] {
+    right: -165px;
+  }
+
+  .sm\:right-\[-130px\] {
+    right: -130px;
+  }
+
+  .sm\:right-\[-120px\] {
+    right: -120px;
+  }
+
+  .sm\:top-\[200px\] {
+    top: 200px;
+  }
+
+  .sm\:top-\[250px\] {
+    top: 250px;
+  }
+
+  .sm\:top-\[350px\] {
+    top: 350px;
+  }
+
+  .sm\:top-0 {
+    top: 0px;
+  }
+
+  .sm\:top-4 {
+    top: 1rem;
+  }
+
+  .sm\:top-6 {
+    top: 1.5rem;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:w-\[450px\] {
+    width: 450px;
+  }
+
+  .sm\:w-\[600px\] {
+    width: 600px;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -785,8 +960,20 @@ nav li:hover {
     right: -172px;
   }
 
+  .md\:top-24 {
+    top: 6rem;
+  }
+
   .md\:top-\[250px\] {
     top: 250px;
+  }
+
+  .md\:top-6 {
+    top: 1.5rem;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-24 {
@@ -799,6 +986,14 @@ nav li:hover {
 
   .md\:w-\[525px\] {
     width: 525px;
+  }
+
+  .md\:w-\[550px\] {
+    width: 550px;
+  }
+
+  .md\:w-\[700px\] {
+    width: 700px;
   }
 
   .md\:flex-row {
@@ -816,6 +1011,11 @@ nav li:hover {
   .md\:bg-transparent {
     background-color: transparent;
   }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -825,6 +1025,10 @@ nav li:hover {
 
   .lg\:right-\[-310px\] {
     right: -310px;
+  }
+
+  .lg\:top-32 {
+    top: 8rem;
   }
 
   .lg\:top-\[10px\] {
@@ -847,8 +1051,21 @@ nav li:hover {
     width: 14rem;
   }
 
+  .lg\:w-\[650px\] {
+    width: 650px;
+  }
+
+  .lg\:w-\[800px\] {
+    width: 800px;
+  }
+
   .lg\:w-\[974px\] {
     width: 974px;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
@@ -871,5 +1088,18 @@ nav li:hover {
 
   .xl\:w-64 {
     width: 16rem;
+  }
+
+  .xl\:w-\[750px\] {
+    width: 750px;
+  }
+
+  .xl\:w-\[900px\] {
+    width: 900px;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }

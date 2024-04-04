@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./*.{php,html,js}",
+    "./template-parts/*.{php,html,js}",
   ],
   theme: {
     container: {
       center: true,
+    },
+    screens: {
+      'xs': '469px',
+      ...defaultTheme.screens,
     },
     extend: {
       fontFamily: {

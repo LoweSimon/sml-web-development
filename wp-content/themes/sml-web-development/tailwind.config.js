@@ -9,6 +9,12 @@ module.exports = {
   theme: {
     container: {
       center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+      }
     },
     screens: {
       'xs': '469px',
@@ -17,6 +23,7 @@ module.exports = {
     extend: {
       fontFamily: {
         display: 'Alegreya SC, serif',
+        paragraph: 'Roboto Slab, serif',
       },
       colors: {
         "sp-brown": "var(--sp-brown)",

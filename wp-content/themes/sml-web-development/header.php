@@ -19,12 +19,12 @@
 <body class="font-display overflow-x-hidden">
 
    <div class="nav-gears">
-      <img src="/wp-content/uploads/2024/03/nav-gear.svg" alt="" class="nav-gear fixed left-[-124px] top-[-124px] xl:w-64 xl:h-64 lg:w-56 lg:h-56 animate-spin-slow opacity-70">
-      <img src="/wp-content/uploads/2024/03/nav-gear.svg" alt="" class="nav-gear fixed xl:left-[78px] xl:top-0 xl:w-64 xl:h-64 lg:left-[34px] lg:top-[10px] lg:w-56 lg:h-56 sm:top-[10px] sm:left-[-10px] top-[-9px] left-[13px] animate-spin-slow direction-reverse opacity-70">
-      <img src="/wp-content/uploads/2024/03/nav-gear-2.svg" alt="" class="nav-gear fixed left-[-121px] xl:top-[122px] xl:w-64 xl:h-64 lg:top-[143px] lg:w-56 lg:h-56 sm:top-[124px] top-[89px] animate-spin-slow opacity-70">
+      <img src="/wp-content/uploads/2024/03/nav-gear.svg" alt="" class="nav-gear fixed left-[-124px] top-[-124px] xl:w-64 xl:h-64 lg:w-56 lg:h-56 animate-spin-slow opacity-70 z-50">
+      <img src="/wp-content/uploads/2024/03/nav-gear.svg" alt="" class="nav-gear fixed xl:left-[78px] xl:top-0 xl:w-64 xl:h-64 lg:left-[34px] lg:top-[10px] lg:w-56 lg:h-56 sm:top-[10px] sm:left-[-10px] top-[-9px] left-[13px] animate-spin-slow direction-reverse opacity-70 z-50">
+      <img src="/wp-content/uploads/2024/03/nav-gear-2.svg" alt="" class="nav-gear fixed left-[-121px] xl:top-[122px] xl:w-64 xl:h-64 lg:top-[143px] lg:w-56 lg:h-56 sm:top-[124px] top-[89px] animate-spin-slow opacity-70 z-50">
    </div>
 
-   <header class="fixed top-0 w-full shadow-md">
+   <header class="fixed top-0 w-full shadow-md z-40 bg-gradient-to-b from-sp-light-brown to-sp-brown">
       <nav class="container nav-links flex flex-wrap flex-col md:flex-row items-center lg:h-26 md:h-24">
          <?php
             wp_nav_menu(array(
@@ -52,7 +52,7 @@
    viewBox="0 0 95.348183 166.14349"
    version="1.1"
    id="svg1"
-   class="gears absolute lg:right-[-310px] lg:w-[974px] lg:h-[1696px] md:right-[-172px] md:top-[250px] md:w-[525px] md:h-[1400px] sm:right-[-120px] sm:top-[350px] right-[-125px] top-[350px] opacity-70 "
+   class="gears absolute lg:right-[-310px] lg:w-[974px] lg:h-[1696px] md:right-[-172px] md:top-[250px] md:w-[525px] md:h-[1400px] sm:right-[-120px] sm:top-[350px] right-[-125px] top-[350px] opacity-30"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="combined-gears.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"

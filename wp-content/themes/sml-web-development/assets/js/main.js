@@ -22,5 +22,4 @@ jQuery(function($) {
         $('.open-nav').toggleClass('hidden');
         $('.close-nav').toggleClass('hidden');
     })
-
 })

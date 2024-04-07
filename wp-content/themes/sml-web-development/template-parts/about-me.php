@@ -91,15 +91,16 @@
     </svg>
 
 </div>
-<div class="content-container absolute top-8 left-0">
-    <div class="about-frame absolute w-[536px] h-[99.16px] left-[170px] top-14 flex items-center justify-center">
-        <img src="/wp-content/uploads/2024/04/header-frame.svg" alt="" class="absolute w-[536px] h-[99.16px]">
-        <h2 class="text-2xl text-sp-blue font-bold"><?php echo $about_title; ?></h2>
-    </div>
-    <p class="absolute top-52 left-[170px] w-[498px] flex"><?php echo $description; ?></p>
+
+<div class="content-container absolute top-8 left-0 flex items-center justify-center w-full">
+        <div class="about-frame absolute 2xl:left-[170px] xl:w-[536px] xl:h-[99.16px] xl:left-[110px] xl:top-14 lg:left-[286px] lg:w-[450px] lg:top-20 md:w-[350px] md:top-20 sm:w-[250px] sm:top-20 flex items-center justify-center">
+            <img src="/wp-content/uploads/2024/04/header-frame.svg" alt="" class="absolute w-[536px] h-[99.16px]">
+            <h2 class="text-2xl text-sp-blue font-bold"><?php echo $about_title; ?></h2>
+        </div>
+        <p class="absolute top-52 left-[170px] 2xl:w-[498px] xl:w-[450px] lg:w-[320px] md:w-8/12 md:mt-0 md:text-base sm:mt-[-50px] sm:w-2/3 sm:text-sm flex text-sp-dark-brown"><?php echo $description; ?></p>
 </div>
 
-<img src="<?php echo $image; ?>" alt="" class="absolute right-[170px] top-16 w-[453px] h-[578px] rounded-e-lg">
+<img src="<?php echo $image; ?>" alt="" class="absolute  xl:top-16 xl:w-[453px] xl:h-[578px] lg:w-[350px] lg:h-[400px] lg:top-60 2xl:left-[900px] xl:left-[650px] lg:left-[520px] md:top-[33rem] md:left-60 sm:w-72 sm:h-96 sm:top-[31rem] rounded-e-lg">
 
 
 <div class="frame absolute right-20 bottom-0 w-[279.36px] h-[279.43px] rotate-180">

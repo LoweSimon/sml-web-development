@@ -31,3 +31,7 @@ nav li:hover {
 .header-border {
     background-image: url('http://localhost/sml-web-development/wp-content/uploads/2024/04/frame.svg');
 }
+
+.nav-background {
+    background: var(--sp-grey);
+}

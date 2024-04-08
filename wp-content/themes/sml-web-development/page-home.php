@@ -8,11 +8,11 @@
     get_header();
 ?>
 
-<section class="hero container top-60 relative justify-center flex">
+<section class="hero container top-60 relative justify-center flex xl:h-[504px] lg:h-[448px] md:h-[392px] sm:h-[336px] xs:h-[108px] h-[144px]">
     <?php include get_template_directory() . '/template-parts/hero.php'; ?>
 </section>
 
-<section class="about-me container top-[58rem] relative justify-center flex lg:h-[720px] md:h-[1035px] sm:h-[1000px]">
+<section class="about-me container top-[26rem] relative justify-center flex lg:h-[720px] md:h-[1035px] sm:h-[1000px] xs:h-[900px] h-[700px]">
     <?php include get_template_directory() . '/template-parts/about-me.php'; ?>
 </section>
 

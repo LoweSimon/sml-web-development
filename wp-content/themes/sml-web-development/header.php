@@ -52,7 +52,7 @@
    viewBox="0 0 95.348183 166.14349"
    version="1.1"
    id="svg1"
-   class="gears absolute lg:right-[-310px] lg:w-[974px] lg:h-[1696px] md:right-[-172px] md:top-[250px] md:w-[525px] md:h-[1400px] sm:right-[-120px] sm:top-[350px] right-[-125px] top-[350px] opacity-30"
+   class="gears fixed lg:right-[-310px] lg:w-[974px] lg:h-[1696px] md:right-[-172px] md:top-[-131px] md:w-[525px] md:h-[1400px] sm:right-[-120px] sm:top-[350px] right-[-125px] top-[350px] opacity-30"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="combined-gears.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"

@@ -95,9 +95,9 @@
 <div class="content-container absolute top-8 left-0 flex items-center justify-center w-full">
         <div class="about-frame absolute 2xl:left-[170px] xl:w-[536px] xl:h-[99.16px] xl:left-[110px] xl:top-14 lg:left-[286px] lg:w-[450px] lg:top-20 md:w-[350px] md:top-20 sm:w-[250px] sm:top-20 xs:w-[250px] xs:top-20 w-56 flex items-center justify-center">
             <img src="/wp-content/uploads/2024/04/header-frame.svg" alt="" class="absolute w-[536px] h-[99.16px]">
-            <h2 class="text-2xl text-sp-blue font-bold"><?php echo $about_title; ?></h2>
+            <h2 class="text-sp-blue"><?php echo $about_title; ?></h2>
         </div>
-        <p class="absolute xs:top-52 sm:left-[170px] 2xl:w-[498px] xl:w-[450px] lg:w-[320px] md:w-8/12 md:mt-0 md:text-base sm:mt-[-50px] sm:w-2/3 sm:text-sm xs:left-20 xs:w-[78%] xs:mt-[-57px] xs:text-sm top-16 w-3/4 flex text-sp-dark-brown"><?php echo $description; ?></p>
+        <p class="absolute xs:top-52 sm:left-[170px] 2xl:w-[498px] xl:w-[450px] lg:w-[320px] md:w-8/12 md:mt-0 sm:mt-[-50px] sm:w-2/3 xs:left-20 xs:w-[78%] xs:mt-[-57px] top-16 w-3/4 flex text-sp-dark-brown"><?php echo $description; ?></p>
 </div>
 
 <img src="<?php echo $image; ?>" alt="" class="absolute flex xl:top-16 xl:w-[453px] xl:h-[578px] lg:w-[350px] lg:h-[400px] lg:top-60 2xl:left-[900px] xl:left-[650px] lg:left-[520px] md:top-[33rem] md:left-60 sm:w-72 sm:h-96 sm:top-[31rem] xs:w-72 xs:h-80 xs:bottom-20 w-72 top-[36rem] rounded-e-lg">

@@ -16,7 +16,7 @@
     <?php include get_template_directory() . '/template-parts/about-me.php'; ?>
 </section>
 
-<section class="services container top-[36rem] relative justify-center flex">
+<section class="services container top-[36rem] xl:h-[51rem] relative justify-center flex">
     <?php include get_template_directory() . '/template-parts/services.php'; ?>
 </section>
 

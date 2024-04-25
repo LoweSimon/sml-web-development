@@ -10,6 +10,21 @@
     --sp-dark-brown: #634219;
 }
 
+@layer base {
+    h1 {
+        @apply font-bold xl:text-6xl md:text-5xl sm:text-4xl text-3xl;
+    }
+    h2 {
+        @apply font-bold text-2xl;
+    }
+    h3 {
+        @apply font-bold text-xl;
+    }
+    p {
+        @apply font-normal md:text-base xs:text-sm;
+    }
+}
+
 body {
     background-image: url('../img/grunge-style-background-with-stains-scratches.jpg');
     background-size: cover;

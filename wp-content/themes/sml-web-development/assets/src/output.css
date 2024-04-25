@@ -699,12 +699,20 @@ p {
   top: 0px;
 }
 
+.top-14 {
+  top: 3.5rem;
+}
+
 .top-16 {
   top: 4rem;
 }
 
 .top-4 {
   top: 1rem;
+}
+
+.top-40 {
+  top: 10rem;
 }
 
 .top-44 {
@@ -785,6 +793,10 @@ p {
 
 .h-\[99\.16px\] {
   height: 99.16px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-3\/4 {
@@ -932,10 +944,6 @@ p {
   opacity: 0.3;
 }
 
-.opacity-5 {
-  opacity: 0.05;
-}
-
 .opacity-70 {
   opacity: 0.7;
 }
@@ -1000,6 +1008,17 @@ nav li:hover {
 
 .nav-background {
   background: var(--sp-grey);
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(158, 158, 158);
 }
 
 @media (min-width: 469px) {
@@ -1191,12 +1210,20 @@ nav li:hover {
     height: 1400px;
   }
 
+  .md\:h-\[35rem\] {
+    height: 35rem;
+  }
+
   .md\:h-\[392px\] {
     height: 392px;
   }
 
   .md\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:w-\[350px\] {
@@ -1291,6 +1318,10 @@ nav li:hover {
 
   .lg\:w-56 {
     width: 14rem;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
   }
 
   .lg\:w-\[320px\] {
@@ -1417,3 +1448,4 @@ nav li:hover {
     width: 498px;
   }
 }
+  

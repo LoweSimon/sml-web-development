@@ -50,3 +50,20 @@ nav li:hover {
 .nav-background {
     background: var(--sp-grey);
 }
+
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .swiper-slide {
+    background-color: rgb(158, 158, 158);
+    
+  }
+  

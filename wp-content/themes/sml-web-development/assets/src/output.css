@@ -715,10 +715,6 @@ p {
   top: 10rem;
 }
 
-.top-44 {
-  top: 11rem;
-}
-
 .top-5 {
   top: 1.25rem;
 }
@@ -763,6 +759,14 @@ p {
   top: 89px;
 }
 
+.right-4 {
+  right: 1rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
 .z-40 {
   z-index: 40;
 }
@@ -795,8 +799,25 @@ p {
   height: 99.16px;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
+}
+
+.h-\[40rem\] {
+  height: 40rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .w-3\/4 {
@@ -811,6 +832,10 @@ p {
   width: 18rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .w-\[279\.36px\] {
   width: 279.36px;
 }
@@ -821,6 +846,15 @@ p {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[31rem\] {
+  width: 31rem;
+}
+
+.translate-x-\[3\.125rem\] {
+  --tw-translate-x: 3.125rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .rotate-180 {
@@ -860,10 +894,6 @@ p {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-evenly {
@@ -1019,6 +1049,10 @@ nav li:hover {
   font-weight: bold;
   color: #fff;
   background-color: rgb(158, 158, 158);
+}
+
+.swiper {
+  margin-left: 0 !important;
 }
 
 @media (min-width: 469px) {
@@ -1448,4 +1482,3 @@ nav li:hover {
     width: 498px;
   }
 }
-  

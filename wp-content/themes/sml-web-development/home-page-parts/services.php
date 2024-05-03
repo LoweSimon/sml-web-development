@@ -15,7 +15,7 @@
     <h2 class="text-sp-blue"><?php echo $servicesTitle; ?></h2>
 </div>
 
-<div class="swiper mySwiper left-0 top-40 xl:w-[31rem] xl:h-[40rem] md:w-96 md:h-[35rem]">
+<div class="swiper mySwiper left-0 top-40 xl:w-[31rem] xl:h-[40rem] md:w-96 md:h-[35rem] skew-x-2">
     <div class="swiper-wrapper">
       <div class="swiper-slide ecomm flex xl:w-[31rem] xl:h-[40rem] md:w-96 md:h-[35rem] justify-center items-center">
       <img src="/wp-content/uploads/2024/04/parchment-background-scaled.jpg" alt="" class="absolute xl:w-[31rem] xl:h-[40rem] md:w-96 md:h-[35rem] opacity-80">
@@ -39,7 +39,7 @@
   <div class="swiper-pagination"></div>
 </div>
 
-<div class="image-container w-[31rem] h-[40rem] absolute top-40 right-20">
+<div class="image-container w-[31rem] h-[40rem] absolute top-40 right-20 xl:flex hidden">
   <img src="<?php echo $service_image; ?>" alt="" class="h-full w-full" >
 </div>
 

@@ -4,7 +4,8 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     "./*.{php,html,js}",
-    "./template-parts/*.{php,html,js}",
+    "./home-page-parts/*.{php,html,js}",
+    "./contact-page-parts/*.{php,html,js}",
   ],
   theme: {
     container: {
@@ -37,6 +38,9 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
+      },
+      backgroundImage: {
+        'contact-form': "url('/wp-content/uploads/2024/05/parchment.png')",
       },
     },
   },

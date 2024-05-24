@@ -18,6 +18,8 @@
 
     add_action('init', 'theme_menus');
 
+    wp_enqueue_script('jquery');
+
 
     add_action('wp_enqueue_scripts', function(){
         wp_enqueue_style('theme', get_template_directory_uri() . '/assets/src/output.css', [], time());

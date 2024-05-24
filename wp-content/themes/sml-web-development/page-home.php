@@ -24,7 +24,7 @@
     <?php include get_template_directory() . '/home-page-parts/why-work-with-me.php'; ?>
 </section>
 
-<section class="testimonials container top-72 relative justify-center flex">
+<section class="testimonials container top-[40rem] relative justify-center flex">
     <?php include get_template_directory() . '/home-page-parts/testimonials.php'; ?>
 </section>
 

@@ -43,14 +43,29 @@ nav li:hover {
     padding: 5px;
 }
 
-.header-border {
-    background-image: url('http://localhost/sml-web-development/wp-content/uploads/2024/04/frame.svg');
-}
-
 .nav-background {
     background: var(--sp-grey);
 }
 
+.wpforms-container input, .wpforms-container textarea {
+    background: none !important;
+    border: unset !important;
+    border-bottom: 1px solid black !important;
+    border-radius: unset !important;
+}
+
+.wpforms-submit-container button {
+    background-color: var(--sp-blue) !important;
+    border-radius: 20px !important;
+    color: var(--sp-light-brown) !important;
+    padding: 5px !important;
+    width: 10rem;
+}
+
+.wpforms-submit-container button:hover {
+    color: var(--sp-dark-brown) !important;
+    background-color: var(--sp-light-brown) !important;
+}
 
 .swiper-slide {
   display: flex;

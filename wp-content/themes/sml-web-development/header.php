@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     
     <?php
         wp_head();
@@ -18,29 +21,36 @@
 </head>
 <body class="font-display overflow-x-hidden">
 
-   <div class="nav-gears">
+   <div class="nav-gears z-10 absolute">
       <img src="/wp-content/uploads/2024/04/nav-gear.svg" alt="" class="nav-gear fixed left-[-124px] top-[-124px] xl:w-64 xl:h-64 lg:w-56 lg:h-56 animate-spin-slow opacity-70 z-50">
       <img src="/wp-content/uploads/2024/04/nav-gear.svg" alt="" class="nav-gear fixed xl:left-[78px] xl:top-0 xl:w-64 xl:h-64 lg:left-[34px] lg:top-[10px] lg:w-56 lg:h-56 sm:top-[10px] sm:left-[-10px] top-[-9px] left-[13px] animate-spin-slow direction-reverse opacity-70 z-50">
       <img src="/wp-content/uploads/2024/04/nav-gear-2.svg" alt="" class="nav-gear fixed left-[-121px] xl:top-[122px] xl:w-64 xl:h-64 lg:top-[143px] lg:w-56 lg:h-56 sm:top-[124px] top-[89px] animate-spin-slow opacity-70 z-50">
    </div>
 
-   <header class="fixed top-0 w-full shadow-md z-40 bg-gradient-to-b from-sp-light-brown to-sp-brown">
-      <nav class="container nav-links flex flex-wrap flex-col md:flex-row items-center lg:h-26 md:h-24">
-         <?php
-            wp_nav_menu(array(
-               'menu' => 'primary',
-               'container' => '',
-               'theme_location' => 'primary',
-               'items_wrap' => '<ul class=" nav-links flex md:flex-row flex-col justify-evenly md:items-center md:gap-[4vw] gap-8 text-sp-dark-brown text-2xl font-medium md:bg-transparent rounded-lg w-full left-0 md:top-6 top-[-240px] absolute">%3$s</ul>'
-            ));
-         ?>
-      </nav>
+   <header class="sticky header top-0 w-full shadow-md z-20 ">
+      <div class="container flex justify-between h-20 md:h-28 items-center">
+         <div class="logo-brand w-28 h-12 bg-gray-400 md:mx-0 mx-auto">
+            <a href="/home">
+               <div class="img-placeholder w-full h-full"></div>
+            </a>
+         </div>
+         <nav class="nav-area">
+            <?php
+               wp_nav_menu(array(
+                  'menu' => 'primary',
+                  'container' => '',
+                  'theme_location' => 'primary',
+                  'items_wrap' => '<ul class="nav-links md:relative absolute flex md:flex-row flex-col justify-end md:items-center xl:gap-48 lg:gap-28 gap-8 text-sp-dark-brown text-2xl font-medium md:bg-none bg-mobile-nav rounded-lg w-full left-0 md:top-0 top-[-240px]">%3$s</ul>'
+               ));
+            ?>
+         </nav>
 
-      <div class="open-nav text-white absolute right-7 top-4 text-3xl cursor-pointer md:hidden">
-         <i class="fa-solid fa-bars"></i>
-      </div>
-      <div class="close-nav text-white absolute right-7 top-4 text-3xl hidden cursor-pointer">
-      <i class="fa-solid fa-xmark"></i>
+         <div class="open-nav text-black absolute right-4 sm:right-24 align-center text-3xl cursor-pointer md:hidden">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+         <div class="close-nav text-black absolute right-4 sm:right-24 align-center text-3xl hidden cursor-pointer">
+         <i class="fa-solid fa-xmark"></i>
+         </div>
       </div>
    </header>
 

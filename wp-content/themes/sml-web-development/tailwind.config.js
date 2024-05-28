@@ -25,6 +25,7 @@ module.exports = {
       fontFamily: {
         display: 'Alegreya SC, serif',
         paragraph: 'Roboto Slab, serif',
+        header: 'VT323, serif'
       },
       colors: {
         "sp-brown": "var(--sp-brown)",
@@ -41,6 +42,7 @@ module.exports = {
       },
       backgroundImage: {
         'contact-form': "url('/wp-content/uploads/2024/05/parchment.png')",
+        'mobile-nav': "linear-gradient(#D0AD76 30%, #928C85)",
       },
     },
   },

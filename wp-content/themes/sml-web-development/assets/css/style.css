@@ -90,3 +90,18 @@ nav li:hover {
         margin-left: auto !important;
     }
 }
+
+.header.scrolled {
+    background: linear-gradient(#D0AD76 30%, #928C85);
+}
+
+.top-20 {
+    top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .nav-area li {
+        display: flex;
+        align-self: center;
+    }
+}

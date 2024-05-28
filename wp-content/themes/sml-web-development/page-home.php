@@ -8,7 +8,7 @@
     get_header();
 ?>
 
-<section class="hero container top-60 relative justify-center flex xl:h-[504px] lg:h-[448px] md:h-[392px] sm:h-[336px] xs:h-[108px] h-[144px]">
+<section class="hero container top-32 relative justify-center flex xl:h-[504px] lg:h-[448px] md:h-[392px] sm:h-[336px] xs:h-[108px] h-[144px]">
     <?php include get_template_directory() . '/home-page-parts/hero.php'; ?>
 </section>
 
@@ -16,7 +16,7 @@
     <?php include get_template_directory() . '/home-page-parts/about-me.php'; ?>
 </section>
 
-<section class="services container top-[36rem] h-[51rem] relative justify-center flex">
+<section class="services container md:top-[36rem] top-[52rem] h-[51rem] relative justify-center flex">
     <?php include get_template_directory() . '/home-page-parts/services.php'; ?>
 </section>
 

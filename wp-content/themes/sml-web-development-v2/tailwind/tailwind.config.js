@@ -12,10 +12,18 @@ module.exports = {
 	],
 	theme: {
 		// Extend the default Tailwind theme.
-		extend: {},
+		extend: {
+			colors: {
+				'primary-red': '#BF0000',
+				'background-grey': '#EEEEEE',
+				'red-box': 'linear-gradient(142deg, #590000 -1.71%, #BF0000 49.15%, #590000 100%)',
+			},
+		},
 		container: {
 			center: true,
-			padding: '2rem',
+		},
+		fontFamily: {
+			display: 'Montserrat, sans-serif'
 		},
 	},
 	corePlugins: {

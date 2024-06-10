@@ -12,5 +12,9 @@
  * editor.
 */
 body {
-	@apply bg-background text-foreground font-sans;
+	@apply bg-background text-foreground font-display;
+}
+
+.current_page_item {
+	@apply bg-primary-red rounded-2xl p-1;
 }

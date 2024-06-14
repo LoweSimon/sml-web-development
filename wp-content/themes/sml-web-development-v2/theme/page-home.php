@@ -10,6 +10,7 @@
 
 <?php 
     include('template-parts/hero.php');
+    include('template-parts/about-me.php');
 ?>
 
 <?php 

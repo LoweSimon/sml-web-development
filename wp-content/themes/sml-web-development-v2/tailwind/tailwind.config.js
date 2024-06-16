@@ -22,6 +22,10 @@ export const theme = {
 	},
 	container: {
 		center: true,
+		padding: {
+			DEFAULT: '2rem',
+			lg: '4rem',
+		}
 	},
 	fontFamily: {
 		display: 'Montserrat, sans-serif'
@@ -57,8 +61,17 @@ export const plugins = [
 				fontWeight: '700',
 				'&:hover': {
 					backgroundColor: '#fff',
-					color: '#BF0000'
+					color: '#BF0000',
+					border: '2px solid #BF0000'
 				}
+			},
+			'.service-container': {
+				width: '20rem',
+				height: '22rem',
+				backgroundColor: '#E3E3E3',
+				borderRadius: '1.875rem',
+				display: 'flex',
+				
 			}
 		})
 	})

@@ -11,6 +11,7 @@
 <?php 
     include('template-parts/hero.php');
     include('template-parts/about-me.php');
+    include('template-parts/services.php');
 ?>
 
 <?php 

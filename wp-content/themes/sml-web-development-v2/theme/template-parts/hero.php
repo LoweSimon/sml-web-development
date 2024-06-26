@@ -24,7 +24,7 @@
         <?php endif; ?>
 
         <div class="hero-content container relative w-full h-auto top-[-27rem]">
-            <div class="max-w-3xl lg:w-full max-h-80 lg:h-full bg-header-box rounded-3xl">
+            <div class="max-w-3xl lg:w-full max-h-[24rem] lg:h-full sm:h- bg-header-box rounded-3xl">
                 <div class="px-9 py-5">
                     <<?php echo $heroHeaderSize ?> class="text-3xl text-white font-normal"><?php echo $heroHeader ?></<?php echo $heroHeaderSize ?>>
                     <<?php echo $heroHeaderSizeTwo ?> class="text-4xl text-white font-bold py-5"><?php echo $heroHeaderTwo ?></<?php echo $heroHeaderSizeTwo ?>>

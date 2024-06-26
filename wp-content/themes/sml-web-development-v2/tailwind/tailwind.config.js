@@ -72,7 +72,6 @@ export const plugins = [
 				backgroundColor: '#E3E3E3',
 				borderRadius: '1.875rem',
 				display: 'flex',
-				
 			}
 		})
 	})

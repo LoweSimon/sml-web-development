@@ -50,6 +50,7 @@ export const plugins = [
 	plugin(function({ addComponents }) {
 		addComponents({
 			'.btn': {
+				border: '2px solid #fff',
 				borderRadius: '1.875rem',
 				padding: '1rem',
 				backgroundColor: '#BF0000',

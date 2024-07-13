@@ -24,7 +24,7 @@
         <?php endif; ?>
 
         <div class="hero-content container relative w-full h-screen flex justify-center items-center">
-            <div class="max-w-[60rem] lg:w-full max-h-[24rem] lg:h-full sm:h-full bg-header-box rounded-3xl flex justify-center items-center text-center">
+            <div class="max-w-[60rem] lg:w-full max-h-[24rem] lg:h-full sm:h-full bg-header-box shadow-[#BF000080] shadow-lg rounded-3xl flex justify-center items-center text-center">
                 <div class="px-9 py-5 flex flex-col justify-center">
                     <<?php echo $heroHeaderSize ?> class="md:text-[2rem] sm:text-xl md:pt-0 sm:pt-4 text-white font-normal"><?php echo $heroHeader ?></<?php echo $heroHeaderSize ?>>
                     <<?php echo $heroHeaderSizeTwo ?> class="md:text-6xl sm:text-[2.75rem] text-xl text-white font-bold py-5"><?php echo $heroHeaderTwo ?></<?php echo $heroHeaderSizeTwo ?>>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="scroll-down absolute w-full flex flex-col justify-center bottom-4 text-center">
-            <p class="text-white">Keep scroll to find out more</p>
+            <p class="text-white">Keep scrolling to find out more</p>
             <a href="#about-me-section">
                 <i class="fa-solid fa-circle-chevron-down text-3xl text-white"></i>
             </a>

@@ -34,6 +34,10 @@ nav li:hover {
 	@apply text-primary-red; 
 }
 
+section:not(:first-child) {
+    @apply relative xl:top-[50rem] top-[49rem];
+}
+
 .custom-shape-divider-top-1719228374 {
     position: absolute;
     top: 0;
@@ -52,4 +56,49 @@ nav li:hover {
 
 .custom-shape-divider-top-1719228374 .shape-fill {
     fill: #BF0000;
+}
+
+.reason {
+    @apply w-[271px] h-[311px] bg-gradient-to-br from-red-950 via-red-700 to-red-950 rounded-[30px] text-white p-4 mt-6;
+}
+
+.custom-shape-divider-top-1720880573 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1720880573 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 475px;
+}
+
+.custom-shape-divider-top-1720880573 .shape-fill {
+    @apply fill-gray-200;
+}
+
+.custom-shape-divider-bottom-1720882309 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1720882309 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 144px;
+}
+
+.custom-shape-divider-bottom-1720882309 .shape-fill {
+    @apply fill-gray-200;
 }

@@ -20,6 +20,9 @@ export const theme = {
 			'red-box': 'linear-gradient(142deg, #590000 -1.71%, #BF0000 49.15%, #590000 100%)',
 			'header-box': 'rgba(98, 98, 98, 0.50)'
 		},
+		boxShadow: {
+			'heroBox': '1rem rgba(191, 0, 0, 0.50)'
+		},
 	},
 	container: {
 		center: true,

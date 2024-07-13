@@ -7,7 +7,7 @@
         $aboutImage = get_sub_field('about_me_image');
 ?>
 
-<section class="about-me h-full relative top-[50rem] flex flex-col bg-primary-red-opacity" id="about-me-section">
+<section class="about-me h-full flex flex-col bg-primary-red-opacity" id="about-me-section">
 
     <div class="custom-shape-divider-top-1719228374 z-10">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

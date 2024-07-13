@@ -20,7 +20,7 @@
                 <source src="<?php echo $heroVideo; ?>" />
             </video>
         <? else : ?>
-            <div class="hero_image h-full absolute" style="background: url(<?php echo $heroImage ?>) lightgray 50% / cover no-repeat;"></div>
+            <div class="hero_image h-full w-full absolute" style="background: url(<?php echo $heroImage ?>) lightgray 50% / cover no-repeat;"></div>
         <?php endif; ?>
 
         <div class="hero-content container relative w-full h-screen flex justify-center items-center">
@@ -31,7 +31,9 @@
                     <div class="text-white">
                         <?php echo $heroText ?>
                     </div>
-                    <a href="<?php echo $heroButton ?>" class="btn mx-auto">Get in contact today</a>
+                    <?php if($heroButton != ''): ?>
+                        <a href="<?php echo $heroButton ?>" class="btn mx-auto">Get in contact today</a>
+                    <?php endif; ?>
                 </div>
                 
             </div>
@@ -39,9 +41,7 @@
 
         <div class="scroll-down absolute w-full flex flex-col justify-center bottom-4 text-center">
             <p class="text-white">Keep scrolling to find out more</p>
-            <a href="#about-me-section">
-                <i class="fa-solid fa-circle-chevron-down text-3xl text-white"></i>
-            </a>
+            <i class="fa-solid fa-circle-chevron-down text-3xl text-white"></i>
         </div>
 </section>
 

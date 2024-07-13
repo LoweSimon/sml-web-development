@@ -9,5 +9,9 @@
 ?>
 
 <?php
+    include('template-parts/hero.php'); 
+?>
+
+<?php
     get_footer();
 ?>

@@ -21,7 +21,8 @@ export const theme = {
 			'header-box': 'rgba(98, 98, 98, 0.50)'
 		},
 		boxShadow: {
-			'heroBox': '1rem rgba(191, 0, 0, 0.50)'
+			'heroBox': '1rem rgba(191, 0, 0, 0.50)',
+			'reasonBox': '4px 4px 6px 1px rgba(191, 0, 0, 0.75)'
 		},
 	},
 	container: {

@@ -59,9 +59,11 @@ section:not(:first-child) {
 }
 
 .reason {
-    @apply w-[271px] h-[311px] bg-gradient-to-br from-red-950 via-red-700 to-red-950 rounded-[30px] text-white p-4 mt-6;
+    @apply p-4 mt-6 w-[456px] h-[184px] bg-white rounded-[30px] shadow-reasonBox shadow-primary-red-opacity flex flex-row;
 }
 
+
+/* Shape Divider for About Me Section  */
 .custom-shape-divider-top-1720880573 {
     position: absolute;
     top: 0;
@@ -82,6 +84,8 @@ section:not(:first-child) {
     @apply fill-gray-200;
 }
 
+
+/* Shape Divider for Services Section */
 .custom-shape-divider-bottom-1720882309 {
     position: absolute;
     bottom: 0;
@@ -101,4 +105,45 @@ section:not(:first-child) {
 
 .custom-shape-divider-bottom-1720882309 .shape-fill {
     @apply fill-gray-200;
+}
+
+.custom-shape-divider-top-1721051400 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1721051400 svg {
+    position: relative;
+    display: block;
+    width: calc(197% + 1.3px);
+    height: 228px;
+}
+
+.custom-shape-divider-top-1721051400 .shape-fill {
+    fill: #B4000080;
+}
+
+.custom-shape-divider-bottom-1721051432 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1721051432 svg {
+    position: relative;
+    display: block;
+    width: calc(197% + 1.3px);
+    height: 228px;
+}
+
+.custom-shape-divider-bottom-1721051432 .shape-fill {
+    fill: #B4000080;
 }

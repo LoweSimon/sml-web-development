@@ -34,7 +34,7 @@ nav li:hover {
 	@apply text-primary-red; 
 }
 
-section:not(:first-child) {
+section:not(:first-child), footer {
     @apply relative xl:top-[50rem] top-[49rem];
 }
 
@@ -59,8 +59,17 @@ section:not(:first-child) {
 }
 
 .reason {
-    @apply p-4 mt-6 w-[456px] h-[184px] bg-white rounded-[30px] shadow-reasonBox shadow-primary-red-opacity flex flex-row;
+    @apply p-4 mt-6 w-[26rem] h-48 bg-[aliceblue] rounded-[30px] shadow-reasonBox shadow-primary-red-opacity flex flex-row z-20;
 }
+
+.service-container {
+    @apply shadow-reasonBox shadow-primary-red-opacity;
+}
+
+input, textarea {
+    @apply !rounded-3xl caret-primary-red;
+}
+
 
 
 /* Shape Divider for About Me Section  */
@@ -107,6 +116,8 @@ section:not(:first-child) {
     @apply fill-gray-200;
 }
 
+
+/* Shape Divider for Reasons Section */
 .custom-shape-divider-top-1721051400 {
     position: absolute;
     top: 0;

@@ -74,7 +74,7 @@ export const plugins = [
 			'.service-container': {
 				width: '20rem',
 				height: '22rem',
-				backgroundColor: '#E3E3E3',
+				backgroundColor: 'aliceblue',
 				borderRadius: '1.875rem',
 				display: 'flex',
 			}

@@ -129,8 +129,19 @@ add_action( 'after_setup_theme', 'sml_setup' );
 function sml_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => __( 'Footer', 'sml-web-development' ),
-			'id'            => 'sidebar-1',
+			'name'          => __( 'Footer Left', 'sml-web-development' ),
+			'id'            => 'footer-left',
+			'description'   => __( 'Add widgets here to appear in your footer.', 'sml-web-development' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+	register_sidebar(
+		array(
+			'name'          => __( 'Footer Right', 'sml-web-development' ),
+			'id'            => 'footer-right',
 			'description'   => __( 'Add widgets here to appear in your footer.', 'sml-web-development' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',

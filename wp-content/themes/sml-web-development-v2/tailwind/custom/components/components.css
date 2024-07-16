@@ -54,3 +54,14 @@
 .entry-content > .alignright {
 	@apply float-right ml-8;
 }
+
+.wpforms-form input[type=submit], 
+.wpforms-form button[type=submit] {
+	@apply !border-2 !border-white !rounded-[1.875rem] !p-4 !bg-primary-red !text-white !my-8 !mx-0 !flex !w-[17rem] !justify-center !uppercase !font-bold !h-12;
+}
+
+.wpforms-form input[type=submit]:hover, 
+div.wpforms-container-full button[type=submit]:hover {
+	@apply !border-2 !border-primary-red;
+	background: white;
+}

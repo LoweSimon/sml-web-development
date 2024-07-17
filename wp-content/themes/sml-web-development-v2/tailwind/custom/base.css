@@ -70,6 +70,13 @@ input, textarea {
     @apply !rounded-3xl caret-primary-red;
 }
 
+#footer-menu .current_page_item {
+    @apply bg-transparent p-0 text-primary-red;
+}
+
+#footer-menu li {
+    @apply my-4 hover:text-primary-red;
+}
 
 
 /* Shape Divider for About Me Section  */
@@ -157,4 +164,26 @@ input, textarea {
 
 .custom-shape-divider-bottom-1721051432 .shape-fill {
     fill: #B4000080;
+}
+
+/* Shape Divider for Footer Section */
+.custom-shape-divider-bottom-1721216662 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1721216662 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+}
+
+.custom-shape-divider-bottom-1721216662 .shape-fill {
+    fill: #3A3A3A;
 }

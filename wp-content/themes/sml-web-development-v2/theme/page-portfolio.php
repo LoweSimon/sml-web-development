@@ -9,7 +9,7 @@
 ?>
 
 <?php
-    include('template-parts/hero.php'); 
+    include('template-parts/thin-hero.php'); 
 ?>
 
 <?php

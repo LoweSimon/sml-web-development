@@ -34,13 +34,12 @@ nav li:hover {
 	@apply text-primary-red; 
 }
 
-section:not(:first-child), footer {
+/* section:not(:first-child), footer {
     @apply relative xl:top-[50rem] top-[49rem];
-}
+} */
 
 .custom-shape-divider-top-1719228374 {
     position: absolute;
-    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -82,7 +81,6 @@ input, textarea {
 /* Shape Divider for About Me Section  */
 .custom-shape-divider-top-1720880573 {
     position: absolute;
-    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -104,7 +102,6 @@ input, textarea {
 /* Shape Divider for Services Section */
 .custom-shape-divider-bottom-1720882309 {
     position: absolute;
-    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -127,7 +124,6 @@ input, textarea {
 /* Shape Divider for Reasons Section */
 .custom-shape-divider-top-1721051400 {
     position: absolute;
-    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;

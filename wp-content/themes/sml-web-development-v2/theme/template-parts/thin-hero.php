@@ -7,7 +7,7 @@
         $thinHeroDescription = get_sub_field('thin_hero_description');
 ?>
 
-<section class="thin-hero absolute top-0 max-h-[36rem] h-full w-full">
+<section class="thin-hero relative max-h-[36rem] h-full w-full">
     <div class="thin-hero-image h-full w-full">
         <img src="<?php echo $thinHeroImage ?>" alt="" class="w-full h-full">
     </div>

@@ -24,7 +24,7 @@
     </div>
         <div class="container py-16 z-20 relative text-black">
             <div class="reason-title mb-8 flex flex-col justify-center text-center relative z-20">
-                <h2 class="text-3xl underline mb-4"><?php echo $fiveReasonsTitle; ?></h2>
+                <h2 class="underline mb-4"><?php echo $fiveReasonsTitle; ?></h2>
                 <div class="text-xl">
                     <?php echo $fiveReasonsDescription; ?>
                 </div>

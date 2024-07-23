@@ -19,7 +19,7 @@
 
     <div class="container flex lg:flex-row flex-col lg:justify-between items-center py-16 z-20">
         <div class="about-content lg:w-1/2 w-full text-white">
-            <h2 class="text-2xl font-bold underline pb-10"><?php echo $aboutHeader ?></h2>
+            <h2 class="underline pb-10"><?php echo $aboutHeader ?></h2>
             <div class="">
                 <?php echo $aboutText ?>
             </div>

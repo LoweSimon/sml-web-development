@@ -10,6 +10,8 @@
 
 <?php
     include('template-parts/thin-hero.php'); 
+    include('template-parts/portfolio-list.php');
+    include('template-parts/call-to-action.php');
 ?>
 
 <?php

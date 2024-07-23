@@ -13,7 +13,7 @@
         $heroButton = get_sub_field('hero_cta');
 ?>
 
-<section class="hero w-screen max-h-screen h-[88vh] relative top-0 z-20">
+<section class="hero w-screen max-h-screen h-screen z-20">
 
         <?php if($heroOption == 'video'): ?>
             <video autoplay loop muted class="hero_image w-full h-full absolute flex object-fill">
@@ -23,7 +23,7 @@
             <div class="hero_image h-full w-full absolute" style="background: url(<?php echo $heroImage ?>) lightgray 50% / cover no-repeat;"></div>
         <?php endif; ?>
 
-        <div class="hero-content container relative w-full h-[88vh] flex justify-center items-center">
+        <div class="hero-content container relative w-full h-screen flex justify-center items-center">
             <div class="max-w-[60rem] lg:w-full max-h-[24rem] lg:h-full sm:h-full bg-header-box shadow-[#BF000080] shadow-lg rounded-3xl flex justify-center items-center text-center">
                 <div class="px-9 py-5 flex flex-col justify-center">
                     <<?php echo $heroHeaderSize ?> class="md:text-[2rem] sm:text-xl md:pt-0 sm:pt-4 text-white font-normal"><?php echo $heroHeader ?></<?php echo $heroHeaderSize ?>>

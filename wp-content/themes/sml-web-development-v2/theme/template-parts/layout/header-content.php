@@ -13,7 +13,7 @@
 	<div class="container h-28 flex flex-row justify-between items-center sticky z-30">
 		<div>
 			<div class="sml-logo lg:w-64 w-56 h-16">
-				<img src="wp-content/uploads/2024/07/SMLWebDevelopment-logo-white.svg" alt="SML Web Development Logo" class="h-full w-full">
+				<img src="/wp-content/uploads/2024/07/SMLWebDevelopment-logo-white.svg" alt="SML Web Development Logo" class="h-full w-full">
 			</div>
 		</div>
 

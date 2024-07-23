@@ -21,7 +21,7 @@
     </div>
     <div class="container flex flex-row flex-wrap justify-between py-16 z-20 relative">
         <div class="left-content xl:w-1/3 lg:w-full">
-            <h3 class="text-3xl font-bold"><?php echo $servicesHeader ?></h3>
+            <h2 class=""><?php echo $servicesHeader ?></h2>
             <p class="text-xl font-normal py-5"><?php echo $servicesText ?></p>
             <a href="<?php echo $servicesButton ?>" class="btn">Get in contact today</a>
         </div>

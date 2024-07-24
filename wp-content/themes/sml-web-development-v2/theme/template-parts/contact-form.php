@@ -1,5 +1,5 @@
     <div class="contact-form">
             <?php
-                echo do_shortcode('[wpforms id="25"]');
+                echo do_shortcode('[forminator_form id="335"]');
             ?>
     </div>

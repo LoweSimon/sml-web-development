@@ -9,48 +9,41 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<?php 
+	if(have_rows('single_clients')):
+		while(have_rows('single_clients')): the_row();
 
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		$singleClientImage 			= get_sub_field('single_client_image');
+		$singleClientTitle 			= get_sub_field('single_client_title');
+		$singleClientDescription 	= get_sub_field('single_client_description');
+		$singleClientLink 			= get_sub_field('single_client_link');
+		$singleClientDate 			= get_sub_field('single_client_date');
+		$category					= get_the_category();
+?>
 
-		<?php if ( ! is_page() ) : ?>
-			<div class="entry-meta">
-				<?php sml_entry_meta(); ?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+<section class="single-client">
+	<div class="container">
+		<h1 class="md:text-7xl sm:text-5xl text-4xl my-12"><?php echo $singleClientTitle; ?></h1>
+		<div class="flex lg:flex-row flex-col gap-8">
+			<div class="client-image-container max-w-1/2 w-full">
+				<img src="<?php echo $singleClientImage; ?>" alt="" class="w-full">
+				<div class="flex md:flex-row flex-col justify-between mt-8">
+					<span>Go Live date: <?php echo $singleClientDate; ?></span>
+					<span class="md:my-0 my-4">Platform: <?php echo $category[0]->name; ?></span>
+					<a href="<?php echo $singleClientLink; ?>" target="_blank">Visit Site <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+				</div>
+				<hr class="border border-primary-red mt-4">
+			</div>
+			<div class="single-client-content max-w-1/2 w-full">
+				
+				<?php echo $singleClientDescription; ?>
+			</div>
+		</div>
+	</div>
+</section>
 
-	<?php sml_post_thumbnail(); ?>
 
-	<div <?php sml_content_class( 'entry-content' ); ?>>
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers. */
-					__( 'Continue reading<span class="sr-only"> "%s"</span>', 'sml-web-development' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				get_the_title()
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div>' . __( 'Pages:', 'sml-web-development' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php sml_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-
-</article><!-- #post-${ID} -->
+<?php
+		endwhile;
+	endif;
+?>

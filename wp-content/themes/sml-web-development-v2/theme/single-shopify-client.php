@@ -1,12 +1,13 @@
 <?php
-    /**
-     * Template Name: Plans
-     */
-?>
+/**
+ * Template to show a single Shopify Client
+ */
 
-<?php
+
     get_header();
 ?>
+
+
 
 <?php
     get_footer();

@@ -53,22 +53,22 @@ export const plugins = [
 	// require('@tailwindcss/container-queries'),
 	plugin(function({ addComponents }) {
 		addComponents({
-			'.btn': {
-				border: '2px solid #fff',
-				borderRadius: '1.875rem',
-				padding: '1rem',
-				backgroundColor: '#BF0000',
-				color: '#fff',
+			'.btn, .forminator-button': {
+				border: '2px solid #fff !important',
+				borderRadius: '1.875rem !important',
+				padding: '1rem !important',
+				backgroundColor: '#BF0000 !important',
+				color: '#fff !important',
 				margin: '2rem 0',
-				display: 'flex',
-				width: '17rem',
-				justifyContent: 'center',
-				textTransform: 'uppercase',
-				fontWeight: '700',
+				display: 'flex !important',
+				width: '17rem !important',
+				justifyContent: 'center !important',
+				textTransform: 'uppercase !important',
+				fontWeight: '700 !important',
 				'&:hover': {
-					backgroundColor: '#fff',
-					color: '#BF0000',
-					border: '2px solid #BF0000'
+					backgroundColor: '#fff !important',
+					color: '#BF0000 !important',
+					border: '2px solid #BF0000 !important'
 				}
 			},
 			'.service-container': {

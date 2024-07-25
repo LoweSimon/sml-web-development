@@ -8,3 +8,15 @@
  * For esbuild documentation, please see:
  * https://esbuild.github.io/
  */
+
+document.getElementsByClassName("nav-controls").addEventListener("click", navOpen);
+
+function navOpen() {
+    document.getElementsByClassName("nav-controls").innerHTML = "Clicked";
+}
+
+jQuery(function() {
+    jQuery('.nav-controls').click(function() {
+        $('#site-navigation').toggleClass('top-[0px]');
+    })
+})

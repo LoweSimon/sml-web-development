@@ -4,7 +4,7 @@
         <p class="text-center">If you have an idea and want to discuss it with me, fill out this contact form to arrange a chat.</p>
         <!-- <div class="left-contact-content w-1/2">
         </div> -->
-        <div class="right-contact-content w-3/4">
+        <div class="right-contact-content w-3/4 mt-8">
             <?php
                 include('contact-form.php');
             ?>

@@ -13,7 +13,8 @@
     include('template-parts/about-me.php');
     include('template-parts/services.php');
     include('template-parts/reasons-to-work-with-me.php');
-    include('template-parts/contact-section.php');
+    include('template-parts/testimonials.php');
+    include('template-parts/call-to-action-long.php');  
 ?>
 
 <?php 

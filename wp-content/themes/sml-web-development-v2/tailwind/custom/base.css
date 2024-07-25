@@ -50,6 +50,9 @@ nav li:hover {
     @apply top-[-7rem] relative;
 }
 
+a:where(:not(.wp-element-button)) {
+    text-decoration: none;
+}
 
 .custom-shape-divider-top-1719228374 {
     position: absolute;
@@ -71,7 +74,7 @@ nav li:hover {
 }
 
 .reason {
-    @apply p-4 mt-6 w-[26rem] h-48 bg-[aliceblue] rounded-[30px] shadow-reasonBox shadow-primary-red-opacity flex flex-row z-20;
+    @apply p-4 mt-16 w-[26rem] h-48 bg-[aliceblue] rounded-[30px] shadow-reasonBox shadow-primary-red-opacity flex flex-row z-20;
 }
 
 .service-container {

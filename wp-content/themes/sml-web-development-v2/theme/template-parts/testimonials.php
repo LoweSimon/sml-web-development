@@ -11,6 +11,9 @@
                 ?>
                 <div class="text-center">
                     <h3><?php echo the_title(); ?></h3>
+                    <span><?php  ?></span>
+                    <?php var_dump( get_field('job_title') ); ?>
+                    <?php var_dump( the_field('star_review') ); ?>
                     <?php echo the_content(); ?>
                 </div>
 

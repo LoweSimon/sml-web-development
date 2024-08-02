@@ -1,26 +1,6 @@
 <section class="testimonials">
     <div class="container py-8">
-        <?php
-            $args = array(
-                'post_type' => 'testimonials',
-            );
-
-            $the_query = new WP_Query( $args );
-            if( $the_query->have_posts() ) :
-                while( $the_query->have_posts() ): $the_query->the_post();
-                ?>
-                <div class="text-center">
-                    <h3><?php echo the_title(); ?></h3>
-                    <span><?php  ?></span>
-                    <?php var_dump( get_field('job_title') ); ?>
-                    <?php var_dump( the_field('star_review') ); ?>
-                    <?php echo the_content(); ?>
-                </div>
-
-        <?php
-                endwhile;
-                wp_reset_postdata();
-            endif;
-        ?>
-    </div>
+        <h2 class="text-center">Still not sure? Take a look at some reviews from previous clients.</h2>
+        <?php echo do_shortcode('[trustindex no-registration=google]'); ?>
+    </div>   
 </section>

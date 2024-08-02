@@ -81,6 +81,7 @@ if ( ! function_exists( 'sml_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => __( 'Primary', 'sml-web-development' ),
+				'mobile-menu' => __( 'Mobile Menu', 'sml-web-development' ),
 				'menu-2' => __( 'Footer Menu', 'sml-web-development' ),
 			)
 		);

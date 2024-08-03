@@ -47,7 +47,7 @@ nav li:hover {
 } */
 
 .page-template-page-home section {
-    @apply top-[-7rem] relative;
+    @apply lg:top-[-7rem] relative top-[-6rem];
 }
 
 a:where(:not(.wp-element-button)) {

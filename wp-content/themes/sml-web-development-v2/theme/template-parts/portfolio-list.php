@@ -36,7 +36,7 @@
         <div class="shopify-list-header flex flex-row mt-12">
             <h2 class="underline my-auto"><?php echo $shopifyTitle ?></h2>
             <div class="shopify-list-logo ml-4">
-                <img src="/wp-content/uploads/2024/07/Shopify_Icon.svg" alt="Shopify Icon">
+                <img src="/wp-content/uploads/2024/08/Shopify_Icon.svg" alt="Shopify Icon">
             </div>
         </div>
 

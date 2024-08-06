@@ -54,6 +54,10 @@ a:where(:not(.wp-element-button)) {
     text-decoration: none;
 }
 
+.cta-content a {
+    @apply !w-full lg:!w-64;
+}
+
 .custom-shape-divider-top-1719228374 {
     position: absolute;
     left: 0;
@@ -74,7 +78,7 @@ a:where(:not(.wp-element-button)) {
 }
 
 .reason {
-    @apply p-4 mt-16 w-[26rem] h-48 bg-[aliceblue] rounded-[30px] shadow-reasonBox shadow-primary-red-opacity flex flex-row z-20;
+    @apply p-4 mt-16 w-[26rem] lg:h-48 h-fit bg-[aliceblue] rounded-[30px] shadow-reasonBox shadow-primary-red-opacity flex flex-row z-20;
 }
 
 .service-container {

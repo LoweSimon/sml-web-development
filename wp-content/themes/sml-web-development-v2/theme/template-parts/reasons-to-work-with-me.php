@@ -77,7 +77,7 @@
                     </div>
                     <div class="reason">
                         <div class="reason-five-icon text-3xl pr-4">
-
+                            <i class="fa-solid fa-book-atlas text-primary-red"></i>
                         </div>
                         <div class="reason-content flex flex-col">
                             <h4 class=""><?php echo $reasonFiveTitle ?></h4>
